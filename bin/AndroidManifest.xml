@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.sjzc.fanyafeng"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.GuideActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  -->
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.AppStartActivicy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiFragment.MainTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.SignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.ChargeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.ChangepwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.CollectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.InformationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.CertificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.UpgradeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.RelationActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

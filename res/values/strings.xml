@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">51rongdai</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s_view_btn">more</string>
+    <!-- 首页选项卡 -->
+    <string name="fragment_homepage_title">首页</string>
+    <!-- 找资金选项卡 -->
+    <string name="fragment_findmoney_title">找资金</string>
+    <!-- 找项目选项卡 -->
+    <string name="fragment_findproject_title">找项目</string>
+    <!-- 我的学院选项卡 -->
+    <string name="fragment_mycollege_title">我的学院</string>
+    <!-- 个人中心选项卡 -->
+    <string name="fragment_personalcenter_title">个人中心</string>
+    <!-- 个人中心子选项卡 -->
+    <string name="activity_sign">快速注册</string>
+    <string name="activity_personalcenter_mycollect">我的收藏</string>
+    <string name="activity_personalcenter_mycertification">实名认证</string>
+    <string name="activity_personalcenter_mychangepwd">更改密码</string>
+    <string name="activity_personalcenter_mycharge">充值</string>
+    <string name="activity_personalcenter_myinformation">联系方式</string>
+    <string name="activity_personalcenter_myclassified">分类信息</string>
+    <string name="activity_personalcenter_mymessage">短消息</string>
+    <string name="activity_personalcenter_myupgrade">用户升级</string>
+   
+    
+
+</resources>
