@@ -32,8 +32,8 @@
                 android:textSize="14sp" />
         </RelativeLayout>
     </LinearLayout>
-    
-     <LinearLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="30dip"
         android:background="#00B28C"
@@ -67,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:clickable="false"
-                android:text="ListView+CheckBox"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </RelativeLayout>
@@ -91,9 +90,7 @@
         </RelativeLayout>
     </LinearLayout>
 
-
-
-        <LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
@@ -108,6 +105,7 @@
             android:fadingEdge="none" >
         </ListView>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -141,6 +139,5 @@
             android:textColor="#FDFEFE"
             android:textSize="16sp" />
     </LinearLayout>
-
 
 </LinearLayout>
