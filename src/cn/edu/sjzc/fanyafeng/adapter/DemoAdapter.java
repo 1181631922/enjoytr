@@ -77,7 +77,7 @@ public class DemoAdapter extends BaseAdapter {
 		 */
 		if (convertView == null) {
 			layout = (ViewGroup) LayoutInflater.from(context).inflate(
-					R.layout.listview_item_layout, parent, false);
+					R.layout.item_listview_layout, parent, false);
 		} else {
 			layout = (ViewGroup) convertView;
 		}

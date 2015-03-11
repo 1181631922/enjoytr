@@ -147,6 +147,18 @@ public class MyCollege extends BaseFragment implements View.OnClickListener,
 
 		demoDatas.add(new MyCollegeBean("张三", true));
 		demoDatas.add(new MyCollegeBean("李四", true));
+		demoDatas.add(new MyCollegeBean("王五", true));
+		demoDatas.add(new MyCollegeBean("赵六", true));
+		demoDatas.add(new MyCollegeBean("张三", true));
+		demoDatas.add(new MyCollegeBean("李四", true));
+		demoDatas.add(new MyCollegeBean("王五", true));
+		demoDatas.add(new MyCollegeBean("赵六", true));
+		demoDatas.add(new MyCollegeBean("张三", true));
+		demoDatas.add(new MyCollegeBean("李四", true));
+		demoDatas.add(new MyCollegeBean("王五", false));
+		demoDatas.add(new MyCollegeBean("赵六", true));
+		demoDatas.add(new MyCollegeBean("张三", true));
+		demoDatas.add(new MyCollegeBean("李四", true));
 		demoDatas.add(new MyCollegeBean("王五", false));
 		demoDatas.add(new MyCollegeBean("赵六", true));
 
