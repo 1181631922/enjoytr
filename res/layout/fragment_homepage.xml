@@ -147,16 +147,17 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
                         android:layout_weight="1"
                         android:orientation="vertical" >
                         >
 
                         <Button
                             android:id="@+id/diandang"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="0dp"
                             android:background="@drawable/xiaodai"
                             android:paddingTop="5dp" />
 
@@ -165,7 +166,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="小贷/典当" />
+                            android:text="小贷/典当"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -177,8 +179,8 @@
 
                         <Button
                             android:id="@+id/rongzi"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:layout_toRightOf="@id/diandang"
                             android:background="@drawable/rongzi"
@@ -189,7 +191,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="融资租赁" />
+                            android:text="融资租赁"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -201,8 +204,8 @@
 
                         <Button
                             android:id="@+id/danbao"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
                             android:layout_toRightOf="@id/rongzi"
                             android:background="@drawable/danbao"
@@ -213,22 +216,23 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="担保" />
+                            android:text="担保"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="7dp"
                         android:layout_weight="1"
                         android:orientation="vertical" >
                         >
 
                         <Button
                             android:id="@+id/baoxian"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginRight="7dp"
                             android:layout_toRightOf="@id/danbao"
                             android:background="@drawable/baoxian"
                             android:paddingTop="5dp" />
@@ -238,7 +242,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="保险业务" />
+                            android:text="保险业务"
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -257,8 +262,8 @@
 
                         <Button
                             android:id="@+id/pc"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_below="@id/diandang"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="5dp"
@@ -269,7 +274,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="PE/PC" />
+                            android:text="PE/PC"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -281,8 +287,8 @@
 
                         <Button
                             android:id="@+id/xintuo"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_below="@id/diandang"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="5dp"
@@ -294,7 +300,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="信托业务" />
+                            android:text="信托业务"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -306,8 +313,8 @@
 
                         <Button
                             android:id="@+id/zhengquan"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_below="@id/diandang"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="5dp"
@@ -319,23 +326,23 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="证券业务" />
+                            android:text="证券业务"
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="7dp"
                         android:layout_weight="1"
                         android:orientation="vertical" >
-                        >
 
                         <Button
                             android:id="@+id/yinhang"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:layout_below="@id/diandang"
                             android:layout_gravity="center_horizontal"
-                            android:layout_marginRight="7dp"
                             android:layout_marginTop="5dp"
                             android:layout_toRightOf="@id/zhengquan"
                             android:background="@drawable/yinhang" />
@@ -345,7 +352,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:paddingTop="5dp"
-                            android:text="银行业务" />
+                            android:text="银行业务"
+                            android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -402,6 +410,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="保单业务" />
                 </LinearLayout>
 
@@ -427,6 +436,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="资金业务" />
                 </LinearLayout>
             </LinearLayout>
@@ -468,6 +478,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="中间业务" />
                 </LinearLayout>
 
@@ -493,6 +504,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="投资银行" />
                 </LinearLayout>
             </LinearLayout>
@@ -534,6 +546,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="个人业务" />
                 </LinearLayout>
 
@@ -559,6 +572,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="农产品" />
                 </LinearLayout>
             </LinearLayout>
@@ -600,6 +614,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="能源业务" />
                 </LinearLayout>
 
@@ -607,6 +622,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
                     android:orientation="horizontal" >
                         >
 
@@ -614,8 +630,8 @@
                         android:id="@+id/jichu_but"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="45dp"
-                        android:layout_marginRight="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="15dp"
                         android:layout_marginTop="5dp"
                         android:background="@drawable/jichu"
                         android:gravity="center" />
@@ -625,7 +641,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
-                        android:text="基础原材料" />
+                        android:textSize="12sp"
+                        android:text="基础原材" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -666,6 +683,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="经济业务" />
                 </LinearLayout>
 
@@ -691,6 +709,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
+                        android:textSize="12sp"
                         android:text="投行业务" />
                 </LinearLayout>
             </LinearLayout>

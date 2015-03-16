@@ -9,9 +9,11 @@
     <string name="fragment_homepage_title">首页</string>
     <!-- 找资金选项卡 -->
     <string name="fragment_findmoney_title">找资金</string>
-    <string name="activity_findmoney_title">项目详细信息</string>
+    <string name="activity_findmoney_title">资金详细信息</string>
     <!-- 找项目选项卡 -->
     <string name="fragment_findproject_title">找项目</string>
+    <string name="activity_findproject_title">项目详细信息</string>
+    
     <!-- 我的学院选项卡 -->
     <string name="fragment_mycollege_title">我的学院</string>
     <!-- 个人中心选项卡 -->
