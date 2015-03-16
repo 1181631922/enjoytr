@@ -17,6 +17,7 @@ import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnTouchListener;
 
 public class GuideActivity extends Activity implements OnTouchListener{
@@ -35,6 +36,7 @@ public class GuideActivity extends Activity implements OnTouchListener{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE); //»•µÙ±ÍÃ‚¿∏
         
         if (isFirstStart()) {
         	setTarget();

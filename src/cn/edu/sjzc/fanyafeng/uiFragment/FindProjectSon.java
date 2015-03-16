@@ -47,18 +47,18 @@ public class FindProjectSon extends BaseFragment {
 
 		if (i == 1) {
 			TextView tv = (TextView) layoutView.findViewById(R.id.textView111);
-			tv.setText(2 + "");
-			Log.e("标题栏为多少", 2 + "");
+			tv.setText("上海" + "");
+			
 		} else if (i == 2) {
 			TextView tv = (TextView) layoutView.findViewById(R.id.textView111);
-			tv.setText(3 + "");
-			Log.e("标题栏为多少", 3 + "");
+			tv.setText("其他" + "");
+			
 		} else {
 
 			TextView tv = (TextView) layoutView.findViewById(R.id.textView111);
-			tv.setText(1 + "");
+			tv.setText("北京" + "");
 
-			Log.e("标题栏为多少", 1 + "");
+			
 
 		}
 	}
