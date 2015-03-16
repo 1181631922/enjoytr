@@ -62,6 +62,9 @@
         <activity
             android:name="cn.edu.sjzc.fanyafeng.uiActivity.FindMoneyInfoActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.edu.sjzc.fanyafeng.uiActivity.FindProjectInfoActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
