@@ -70,7 +70,7 @@ public class FindMoneyAdapter extends BaseAdapter {
 		
 		holder.mon_title.setText(findMoneyBeans.get(position).getFindMoneyTitle());
 		holder.mon_add.setText(findMoneyBeans.get(position).getFindMoneyAddress());
-		//这是关键试试吧
+		
 		return view;
 	}
 	
@@ -78,5 +78,5 @@ public class FindMoneyAdapter extends BaseAdapter {
 		TextView mon_title;
 		TextView mon_add;
 	}
-//等下
+
 }

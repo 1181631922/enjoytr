@@ -76,22 +76,14 @@ public class FindProjectSon extends BaseFragment {
 	public void init(int i) {
 
 		if (i == 1) {
-			// TextView tv = (TextView)
-			// layoutView.findViewById(R.id.textView111);
-			// tv.setText("上海" + "");
+
 			initShangHai();
 
 		} else if (i == 2) {
-			// TextView tv = (TextView)
-			// layoutView.findViewById(R.id.textView111);
-			// tv.setText("其他" + "");
+
 			initQiTa();
 
 		} else {
-
-			// TextView tv = (TextView)
-			// layoutView.findViewById(R.id.textView111);
-			// tv.setText("其他" + "");
 
 			initBeiJing();
 
